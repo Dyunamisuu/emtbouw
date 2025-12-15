@@ -1,4 +1,4 @@
-</main>
+<!-- </main>
 <footer>
   <div class="footer-main">
     <div class="container">
@@ -32,7 +32,7 @@
     <div class="container">
       <div class="col-12 flex-around">
         <a href="<?= get_privacy_policy_url(); ?>">Privacy Policy</a>
-        <a href="https://dunepebbler.nl" target="blank">Website door Dune Pebbler</a>
+        <a href="https://netvisie.nl" target="blank">Website door Netvisie</a>
       </div>
 
     </div>
@@ -41,4 +41,4 @@
 <?php wp_footer(); ?>
 </body>
 
-</html>
+</html> -->

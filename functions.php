@@ -39,14 +39,12 @@ add_image_size('default-thumbnail', 128, 128, true); // true: hard crop or empty
 
 set_post_thumbnail_size(128, 128, true);
 
-# FUNCTIONS
 register_nav_menus(array(
-    'primary' => __('Primary Menu', THEME_TD),
-    'footer-1' => __('Footer 1 Menu', THEME_TD),
-    'footer-2' => __('Footer 2 Menu', THEME_TD),
+  'primary' => __('Primary Menu', THEME_TD),
+  'footer-1' => __('Footer 1 Menu', THEME_TD),
+  'footer-2' => __('Footer 2 Menu', THEME_TD),
+
 ));
-
-
 function theme_enqueue_styles()
 {
   // wp_enqueue_style('fontawesome.all.min.js', get_template_directory_uri() . "/assets/fontawesome/css/all.min.css");
